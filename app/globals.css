@@ -114,6 +114,16 @@
       box-shadow: none;
     }
 
+    .hero > .hero-content .hero-actions .btn:not(.secondary) {
+      color: #ffffff;
+      background: #173f39;
+      box-shadow: 0 16px 34px rgba(23, 63, 57, 0.32);
+    }
+
+    .hero > .hero-content .hero-actions .btn:not(.secondary):hover {
+      box-shadow: 0 20px 40px rgba(23, 63, 57, 0.4);
+    }
+
     .nav > .btn {
       color: var(--brand-dark);
       border: 2px solid var(--brand-dark);

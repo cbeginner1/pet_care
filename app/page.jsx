@@ -335,7 +335,6 @@ export default function Home() {
                 <option>皮毛养护</option>
               </select>
               <textarea name="message" placeholder="宠物品种、体重、期望时间" aria-label="预约备注" />
-              <button className="btn" type="submit">提交预约</button>
             </form>
           </div>
         </section>
